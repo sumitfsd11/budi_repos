@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tab-active-btn{
+  background: #1aaac3 !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgb(30 184 210);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1aaac3;
+}
+
+.ant-btn-default:hover{
+  border:rgb(26, 170, 195) 1.5px solid !important ;
+  color: rgb(26, 170, 195) !important;
+}
+
+.ant-btn-primary {
+  border:#1aaac3 1.5px solid !important ;
+  color: rgb(26, 170, 195) !important;
+}
+.ant-btn-primary:hover {
+  background:rgb(26, 170, 195) !important ;
+  color: rgb(255, 255, 255) !important;
+}
+
+.ant-btn-primary {
+  border:rgb(26, 170, 195) 1.5px solid !important ;
+  color: rgb(26, 170, 195) !important;
+}
+
+.ant-btn-primary:hover {
+  background:rgb(26, 170, 195) !important ;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media only screen and (max-width:450px) {
+  ::-webkit-scrollbar {
+    width: unset;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: unset;
+    border-radius: unset;
+    cursor: unset;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: unset;
+  }
+
+}
+
+/* scrollbar  */
+.activeClass {
+  color: #c5d5e2 !important;
+}
+.activeClass:hover {
+  box-shadow: 0px 10px 30px rgba(136, 51, 255, 0.15);
+}
+.activeClass:hover svg {
+  color: white !important;
+}
+
+.activeClass:hover div {
+  color: white !important;
+}
+
+.agent:hover div {
+  color: white !important;
+}
+/* tab css */
+.ant-tabs-tab-btn, .ant-tabs-tab-remove{
+  font-weight: 600 !important;
+}
+.ant-tabs-tab-btn:hover{
+  color: rgb(30 184 210) !important;
+ 
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+   color: #1eb8d2 !important;
+  font-weight: 600;
+  
+  text-shadow: 0 0 0.25px currentcolor;
+}
+/* border element  bottom */
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: rgb(30 184 210) !important;
+  pointer-events: none;
+}
+/* pagination */
+.ant-pagination-item-active {
+  font-weight: 500;
+  border-color: rgb(30 184 210) !important;
+  background: rgb(30 184 210) !important;
+
+}
+.ant-pagination-item-active:is(:hover , :focus){
+  border-color: rgb(30 184 210) !important;
+  background: rgb(30 184 210) !important;
+}
+.ant-pagination-item-active a {
+  color: #fdfdfd !important;
+}
+.ant-pagination-item-active a:is(:hover , :focus){
+  color: #fdfdfd !important;
+}
+/* selctor */
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border-radius:3px !important;  
+}
+/* drawer */
+.ant-drawer-header{
+  padding: 8px !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
